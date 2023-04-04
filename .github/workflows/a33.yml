@@ -34,10 +34,10 @@ jobs:
         with:
           context: .
           push: true
-          tags: morhaf24/typescript-starter:1.0.0
+          tags: Morhaf24/typescript-starter:1.0.0
           build-args: |
             NODE_ENV=production
         if: success()
 
       - name: Verify Docker image
-        run: docker run --rm morhaf24/typescript-starter:1.0.0 npm run test
+        run: docker run --rm Morhaf24/typescript-starter:1.0.0 npm run test

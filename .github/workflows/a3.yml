@@ -19,4 +19,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: morhaf24/typescript-starter:1.0.0
+          tags: Morhaf24/typescript-starter:1.0.0
